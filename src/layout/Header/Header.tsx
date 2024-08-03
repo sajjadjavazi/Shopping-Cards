@@ -1,11 +1,25 @@
 const Header = () => {
-    return (
-        <div>
-            <nav className="bg-blue-500 w-full h-16 flex items-center justify-center rounded-bl-3xl rounded-br-3xl">
-                <h1 className="text-xl font-bold"><a href="https://en.wikipedia.org/wiki/Mansory" target="_blank">Mansory</a> luxury car shop</h1>
-            </nav>
-        </div>
-    );
-}
+  return (
+    <header className="bg-gray-800 text-white p-4">
+      <div className="container mx-auto flex justify-between items-center">
+        <div className="text-2xl font-bold">Luxury Store</div>
+        <nav className="space-x-4">
+          <a href="#" className="hover:text-gray-400">
+            Home
+          </a>
+          <a href="#" className="hover:text-gray-400">
+            Products
+          </a>
+          <a href="#" className="hover:text-gray-400">
+            About
+          </a>
+          <a href="#" className="hover:text-gray-400">
+            Contact
+          </a>
+        </nav>
+      </div>
+    </header>
+  );
+};
 
 export default Header;
