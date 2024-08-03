@@ -1,9 +1,28 @@
+import Post from './components/post/Post'
+import Layout from './layout/layout'
 function App() {
 
   return (
-    <>
-    <h1 className="bg-orange-500 flex justify-center items-center">in the name of god</h1>
-    </>
+    <Layout>
+      <div className="container mx-auto p-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <Post title="rolls roys culis" description='made by mansory' price={2.5} pricebadge='Mil'
+        />
+        <Post title="rolls roys culis" description='made by mansory' price={2.5} pricebadge='Mil'
+        />
+        <Post title="rolls roys culis" description='made by mansory' price={2.5} pricebadge='Mil'
+        />
+        <Post title="rolls roys culis" description='made by mansory' price={2.5} pricebadge='Mil'
+        />
+        <Post title="rolls roys culis" description='made by mansory' price={2.5} pricebadge='Mil'
+        />
+        <Post title="rolls roys culis" description='made by mansory' price={2.5} pricebadge='Mil'
+        />
+        <Post title="rolls roys culis" description='made by mansory' price={2.5} pricebadge='Mil'
+        />
+      </div>
+    </div>
+    </Layout>
   )
 }
 
