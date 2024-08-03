@@ -15,7 +15,7 @@ const Post = ({ title, description, price, pricebadge, image }: Post) => {
                 <p className="text-gray-600 mt-2">{description}</p>
                 <div className="mt-4 flex justify-between items-center">
                     <span className="text-2xl font-bold text-gray-800">{price}{pricebadge}</span>
-                    <button className="bg-green-500 text-white px-4 py-2 rounded-full hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2">Contact Us</button>
+                    <button className="bg-green-500 text-white px-4 py-2 rounded-full hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2">Buy now</button>
                 </div>
             </div>
         </div>
