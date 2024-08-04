@@ -1,30 +1,34 @@
-# React + TypeScript + Vite + Tailwind
+# Luxury Store | [Demo](https://sajjadjavazi.github.io/Shopping-Cards/ "Demo")
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Luxury Store project! This is a React-based web application showcasing a collection of luxury smartphones. The project is built using modern web development technologies like React, TypeScript, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live demo of the project [here](https://sajjadjavazi.github.io/Shopping-Cards/ "here").
 
-## Expanding the ESLint configuration
+## Table of Contents
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Display a collection of luxury smartphones
+- Responsive design for various screen sizes
+- Dynamic content rendering
+- Modern and clean user interface
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces
+- **TypeScript**: A superset of JavaScript that adds static types
+- **Vite**: A fast development build tool for modern web projects
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development
+
+## Contributing
+Contributions are welcome! Please open an issue to discuss what you would like to change or add before making any changes.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/sajjadjavazi/Shopping-Cards/blob/master/LICENSE "LICENSE") file for more details.
